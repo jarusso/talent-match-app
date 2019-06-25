@@ -58,7 +58,9 @@ jopbandperson.html
           </div>
 
 
-This code serves as the form for input, it has two main divs, the first is for the job info. There is a function which checks for input and will enable the continue button. When selected, this scrolls to the second div, where we collect the resume information of the person.
+This code serves as the form for input, it has two main divs, the first is for the job info. 
+There is a function which checks for input and will enable the continue button. 
+When selected, this scrolls to the second div, where we collect the resume information of the person.
 
 Again we check for input to enable the submit button.
 ```
@@ -70,7 +72,8 @@ in the file jserver.js you will see where we process for the result.
 
 You will need to add your secret and id here to make the call work. 
 
-We create a formData object and set the rawJob to be the job description string, and the rawPerson to be the person resume string. 
+We create a formData object and set the rawJob to be the job description string, 
+and the rawPerson to be the person resume string. 
 
 app.post('/result', urlencodedParser, function (req, res){
   var theJob = req.body.job;
