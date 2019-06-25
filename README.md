@@ -113,7 +113,7 @@ var req = request(options, function (error, response, body) {
 
 ```
 
-And for the detailed full result, we form the HTML response using a hidded div, connected to an anchor to toggle the show/hide
+And for the detailed full result, we form the HTML response using a hidden div, connected to an anchor tag to toggle the show/hide
 
 ```
 var data = htmlData;
