@@ -12,7 +12,9 @@ This simple application has three important sequences for the experience.
 
 ![Landing screen](https://github.com/jarusso/talent-match-app/blob/master/documentation-images/TMA1.png)
 
-Then an animated form is displayed, first requesting the text for a Job Description. 
+**Second** we collect the Job Description and Person info.
+
+An animated form is displayed, first requesting the text for a Job Description. 
 
 ![Job Description](https://github.com/jarusso/talent-match-app/blob/master/documentation-images/TMA2.png)
 
@@ -28,7 +30,7 @@ Once that is added, the submit button is enabled and the two items are submitted
 
 ![Filled in Person Resume](https://github.com/jarusso/talent-match-app/blob/master/documentation-images/TMA5.png)
 
-The Talent Match API is called and the result is returned. 
+**Third**, the Talent Match API is called and the result is returned. 
 
 The main scoring elements are shown, **Required Skill Score**, **Match Score**, and **Foundational Skill Score**. 
 
