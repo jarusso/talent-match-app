@@ -2,7 +2,7 @@
 This is a node server that demonstrates using the IBM Watson Talent Match API.
 
 
-This application provides a straight forward user experience, and uses IBM's Carbon Design system for the style and design of the experience. 
+This application provides a straight forward user experience, and uses [IBM's Carbon Design system](https://www.carbondesignsystem.com/) for the style and design of the experience. 
 
 ### The basic flow for the experience
 
