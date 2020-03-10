@@ -59,24 +59,24 @@ jopbandperson.html
             <button type="button" class="bx--btn bx--btn--primary" onclick="showHide( 'person-info-area', 'job-info-area'); setJob();" disabled id="next-button-1" style="margin-top:40px;">Continue</button>
           </div>
 
+```
 
 This code serves as the form for input, it has two main divs, the first is for the job info. 
 There is a function which checks for input and will enable the continue button. 
 When selected, this scrolls to the second div, where we collect the resume information of the person.
 
 Again we check for input to enable the submit button.
-```
 
 Once the information is submitted, the server will process it to pass to the Talent Match API.
 
-```
-in the file jserver.js you will see where we process for the result. 
+In the file jserver.js you will see where we process for the result. 
 
 You will need to add your secret and id here to make the call work. 
 
 We create a formData object and set the rawJob to be the job description string, 
 and the rawPerson to be the person resume string. 
 
+```
 app.post('/result', urlencodedParser, function (req, res){
   var theJob = req.body.job;
   var thePerson = req.body.person;
@@ -98,9 +98,9 @@ app.post('/result', urlencodedParser, function (req, res){
 
 The call itself is straight forward REST
 
-```
-we form the request, and extract the three main items for scores.
+We form the request, and extract the three main items for scores.
 
+```
 var req = request(options, function (error, response, body) {
         if (error) throw new Error(error);
         console.log( "status: " + response.statusCode);
